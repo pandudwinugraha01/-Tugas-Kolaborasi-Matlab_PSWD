@@ -1,15 +1,15 @@
 import streamlit as st
 import numpy as np
-from config.zplane import zplane_plot
-from config.ztransform import z_transform_examples
-from config.audio import generate_bintang_kecil
-from config.freqresponse import plot_freq_response
-from config.fft_audio import plot_fft
-from config.ecg_processing import process_ecg
-from config.convolution_plot import plot_convolution
-from config.image_filters import high_pass_filter, low_pass_filter, upload_image
-from config.audio_equalizer import equalizer, load_audio, plot_audio
-from config.signal_ops import sum_signals, time_reversal, multiply_signals, subtract_signals, amplitude_scaling, time_shift, time_scaling
+from codingan.zplane import zplane_plot
+from codingan.ztransform import z_transform_examples
+from codingan.audio import generate_bintang_kecil
+from codingan.freqresponse import plot_freq_response
+from codingan.fft_audio import plot_fft
+from codingan.ecg_processing import process_ecg
+from codingan.convolution_plot import plot_convolution
+from codingan.image_filters import high_pass_filter, low_pass_filter, upload_image
+from codingan.audio_equalizer import equalizer, load_audio, plot_audio
+from codingan.signal_ops import sum_signals, time_reversal, multiply_signals, subtract_signals, amplitude_scaling, time_shift, time_scaling
 
 st.title("Sinyal dan Sistem Interaktif")
 
